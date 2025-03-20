@@ -5,16 +5,16 @@ import Image  from "next/image"
 import Link from "next/link"
 
 const Banner = () => {
-        const BannerImg = "/assets/coffee-cover.jpg"
+        // const BannerImg = "/assets/coffee-cover.jpg"
         const Appstore = "/assets/app_store.png"
         const Playstore = "/assets/play_store.png"
-        const BannerStyle = {
-                backgroundImage: `url(${BannerImg})`,
-                backgroundSize: "cover",
-                backgoundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                height: "100%",
-                weight: "100%"
+        // const BannerStyle = {
+        //         backgroundImage: `url(${BannerImg})`,
+        //         backgroundSize: "cover",
+        //         backgoundPosition: "center",
+        //         backgroundRepeat: "no-repeat",
+        //         height: "100%",
+        //         weight: "100%"
         }
 
 const MotionImage = motion(Image)
@@ -48,15 +48,15 @@ const MotionImage = motion(Image)
                                                                 Download the App
                                                 </motion.h1>
                                                 <motion.p
-                                                    initial ={{ opacity: 0 , y: 100 }}
-                                                    whileInView ={{ opacity: 1 , y: 0 }}
-                                                    transition ={{ 
-                                                            type: "spring",
-                                                            stiffness: 100,
-                                                            damping: 10,
-                                                            delay: 0.4
-                                                    }}
-                                                    className="text-center text-gray-500 sm:px-10">
+                                                        initial ={{ opacity: 0 , y: 100 }}
+                                                        whileInView ={{ opacity: 1 , y: 0 }}
+                                                        transition ={{ 
+                                                                type: "spring",
+                                                                stiffness: 100,
+                                                                damping: 10,
+                                                                delay: 0.4
+                                                }}
+                                                        className="text-center text-gray-500 sm:px-10">
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, iusto.
                                                 </motion.p>
                                                 {/* Section Img */}
@@ -64,7 +64,7 @@ const MotionImage = motion(Image)
                                                         <Link
                                                                 href={"#"}
                                                                 className="max-w-[150px] sm:max-w-[120px]">
-                                                                    <MotionImage
+                                                                <MotionImage
                                                                         initial ={{ opacity: 0 , y: 100 }}
                                                                         whileInView ={{ opacity: 1 , y: 0 }}
                                                                         transition ={{ 
@@ -78,12 +78,12 @@ const MotionImage = motion(Image)
                                                                         width={200}
                                                                         height={200}
                                                                         >
-                                                                    </MotionImage>
-                                                                </Link>
-                                                                <Link
-                                                                href={"#"}
-                                                                className="max-w-[150px] sm:max-w-[120px]">
-                                                                    <MotionImage
+                                                                </MotionImage>
+                                                        </Link>
+                                                        <Link
+                                                        href={"#"}
+                                                        className="max-w-[150px] sm:max-w-[120px]">
+                                                                <MotionImage
                                                                         initial ={{ opacity: 0 , y: 100 }}
                                                                         whileInView ={{ opacity: 1 , y: 0 }}
                                                                         transition ={{ 
@@ -97,8 +97,8 @@ const MotionImage = motion(Image)
                                                                         width={200}
                                                                         height={200}
                                                                         >
-                                                                    </MotionImage>
-                                                                </Link>
+                                                                </MotionImage>
+                                                        </Link>
                                                 </div>
                                             </div>
                                     </div>
