@@ -5,16 +5,16 @@ import Image  from "next/image"
 import Link from "next/link"
 
 const Banner = () => {
-        // const BannerImg = "/assets/coffee-cover.jpg"
+        const BannerImg = "/assets/coffee-cover.jpg"
         const Appstore = "/assets/app_store.png"
         const Playstore = "/assets/play_store.png"
-        // const BannerStyle = {
-        //         backgroundImage: `url(${BannerImg})`,
-        //         backgroundSize: "cover",
-        //         backgoundPosition: "center",
-        //         backgroundRepeat: "no-repeat",
-        //         height: "100%",
-        //         weight: "100%"
+        const BannerStyle = {
+                backgroundImage: `url(${BannerImg})`,
+                backgroundSize: "cover",
+                backgoundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                height: "100%",
+                weight: "100%"
         }
 
 const MotionImage = motion(Image)
