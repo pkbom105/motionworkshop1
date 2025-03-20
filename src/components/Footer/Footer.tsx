@@ -9,12 +9,8 @@ import {
 } from "react-icons/fa"
 
 import {motion} from "framer-motion"
-import { div } from "framer-motion/client"
 import Image  from "next/image"
 import { FaMapLocation } from "react-icons/fa6"
-import { once } from "node:events"
-
-
 
 const Footer = () => {
 

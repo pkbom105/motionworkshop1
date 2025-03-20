@@ -1,7 +1,6 @@
 import { GiHamburgerMenu } from "react-icons/gi"
 import { motion, AnimatePresence} from "framer-motion"
 import { useState } from "react"
-import { div } from "framer-motion/client"
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa"
 
 
