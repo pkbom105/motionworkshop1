@@ -9,9 +9,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+            primary: "#f19509",
+            primaryDark: "#e86F00",
+            lightOrange: "#f1dabf",
+            DarkGray: "#1a1f25",
+            lightGray: "272c35"
+        },
+        container:{
+          center: true,
+          padding: {
+              default: "1rem",
+              sm: "2rem"          
+            }
+        }
     },
   },
   plugins: [],
